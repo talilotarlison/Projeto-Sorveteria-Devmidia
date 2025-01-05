@@ -1,0 +1,64 @@
+.banner{
+background-color: orange;
+height:85vh;
+background-image: url('../../../public/assets/banner-home.png');
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0px;
+  padding-top: 60px;
+}
+.banner > h1{
+   text-transform:uppercase;
+
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #17171750;
+    font-size: 5rem;
+    color: white;
+}
+
+
+.boxSessaoInicio{
+  max-width: 100vw;
+  margin: 0px auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1, .box2{
+width: 50%;
+
+}
+
+.box1 > img{
+  width: 100%;
+}
+
+.box2{
+  padding: 50px 0px;
+
+}
+
+.box1>h1, 
+.box2>h1,
+.box1>h2,
+.box2>h2{
+  text-align: center;
+  font-weight: 700;
+  text-align:center;
+ 
+}
+.box1> h1, .box2 >h1{
+  font-size: 28px;
+}
+
+.box1 >p , .box2 > p{
+  margin:20px;
+  padding:20px;
+  font-size: 20px;
+}

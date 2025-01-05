@@ -1,0 +1,38 @@
+
+.banner{
+background-color: orange;
+height:80vh;
+background-image: url('../../../public/assets/banner-sabores.jpg');
+  background-size: cover;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0px;
+  padding-top: 60px;
+}
+.banner > h1{
+   text-transform:uppercase;
+
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #17171750;
+    font-size: 5rem;
+    color: white;
+}
+
+.cards {
+  max-width: 60vw;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  align-content:center;
+  align-items:center;
+  justify-content:space-evenly;
+}
+
+.titulo{
+  text-align:center;
+  margin:30px;
+}

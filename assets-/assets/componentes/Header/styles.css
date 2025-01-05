@@ -1,0 +1,45 @@
+header{
+   background-color: orange;
+  position:fixed;
+  width:100vw;
+}
+
+header > .menu{
+  display:flex;
+  align-items:center;
+  align-content:center;
+  justify-content:space-between;
+  max-width: 80vw;
+  height:40px;
+  margin: 0 auto;
+  padding: 10px 2rem;
+ 
+}
+.menu>img{
+  width:70px;
+}
+
+ul{
+  display:flex;
+  text-decoration:none;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+}
+li{
+  text-decoration:none;
+  padding: 0 5px;
+  list-style:none;
+  font-size:20px;
+}
+
+li:hover{
+  opacity: 0.8;
+}
+.btn{
+  color:black;
+}
+
+.dark-mode{
+  margin-left: 10px;
+}
